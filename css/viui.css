@@ -1,0 +1,471 @@
+@charset "utf-8";
+html,
+body,
+ul,
+dl,
+dd,
+dt,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h5,
+h6,
+textarea,
+form,
+select,
+fieldset,
+table,
+td,
+div,
+input {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+h1,
+h2,
+h3,
+h5,
+h6,
+span,
+a,
+em,
+p {
+  list-style: none;
+  font-style: normal;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+a:link,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+html,
+body {
+  font-size: 12px;
+  font-family: "Microsoft Yahei";
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+header {
+  width: 1002px;
+  height: auto;
+  margin: auto;
+}
+header .top_box {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 7px;
+}
+header .top_box .logo {
+  float: left;
+}
+header .top_box .logo img {
+  display: block;
+  margin-top: 7px;
+}
+header .top_box .contact {
+  float: right;
+  margin-top: 22px;
+}
+header .top_box .contact .cont {
+  margin-left: 128px;
+  margin-bottom: 16px;
+}
+header .top_box .contact .cont a {
+  color: #676767;
+}
+header .top_box .contact .pho {
+  font-size: 18px;
+  margin-right: 4px;
+}
+header .top_box .contact .pho span {
+  font-size: 20px;
+  color: #33b3f0;
+}
+header nav {
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #5895b2;
+}
+header nav ul .li-1 {
+  width: 144px;
+}
+header nav ul li {
+  width: 143px;
+  height: 100%;
+  line-height: 40px;
+  text-align: center;
+  float: left;
+  background-color: #0f6ca5;
+  border-left: 1px solid #3d91c0;
+  border-right: 1px solid #144b81;
+}
+header nav ul li a {
+  color: #ffffff;
+  font-size: 14px;
+}
+header nav ul li a:focus,
+header nav ul li a:hover {
+  color: #fff;
+}
+section {
+  width: 1002px;
+  height: auto;
+  margin: auto;
+}
+section .banner {
+  margin-bottom: 6px;
+  height: 357px;
+  position: relative;
+}
+section .banner ul li {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+section .banner ul li a img {
+  display: block;
+}
+section .news-state {
+  margin-top: 12px;
+}
+section .news-state .pic {
+  width: 185px;
+  height: 39px;
+  background-color: #3595d1;
+}
+section .news-state .navM1 h1,
+section .news-state .navM2 h1,
+section .news-state .navM3 h1 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 35px;
+  height: 35px;
+  border-bottom: 1px solid #197bb8;
+  margin-bottom: 14px;
+}
+section .news-state .navM1 .add,
+section .news-state .navM2 .add,
+section .news-state .navM3 .add {
+  width: 769px;
+}
+section .news-state .navM1 .add ul li,
+section .news-state .navM2 .add ul li,
+section .news-state .navM3 .add ul li {
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+}
+section .news-state .navM1 .add ul li img,
+section .news-state .navM2 .add ul li img,
+section .news-state .navM3 .add ul li img {
+  border: 0;
+  display: block !important;
+}
+section .news-state .navM1 .add ul li a,
+section .news-state .navM2 .add ul li a,
+section .news-state .navM3 .add ul li a {
+  display: block;
+  width: 100%;
+  height: 32px;
+  overflow: hidden;
+  color: #5c5c5c;
+}
+section .news-state .navM1 .add ul li a :hover,
+section .news-state .navM2 .add ul li a :hover,
+section .news-state .navM3 .add ul li a :hover {
+  color: #15518a;
+  text-decoration: underline !important;
+}
+section .news-state .navM1 .add ul li a em,
+section .news-state .navM2 .add ul li a em,
+section .news-state .navM3 .add ul li a em {
+  display: block;
+  width: 86%;
+  float: left;
+}
+section .news-state .navM1 .add ul li a span,
+section .news-state .navM2 .add ul li a span,
+section .news-state .navM3 .add ul li a span {
+  display: block;
+  width: 12%;
+  float: right;
+  margin-right: 2%;
+}
+section .news-state .contact {
+  border-lef197bb8t: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+  clear: both;
+}
+section .news-state .contact img {
+  display: block;
+}
+section .news-state .contact .text {
+  margin-left: 18px;
+}
+section .news-state .contact .text p {
+  height: 26px;
+  line-height: 26px;
+  color: #676767;
+}
+section .news-state .page {
+  margin-top: 40px;
+  margin-left: 372px;
+  height: 22px;
+  margin-bottom: 70px;
+}
+section .news-state .page ul {
+  overflow: hidden;
+}
+section .news-state .page ul li {
+  width: 76px;
+  float: left;
+  text-aligh: center;
+  height: 22px;
+}
+section .news-state .page ul li a:hover {
+  cursor: pointer !important;
+}
+section .news-state .page ul li a {
+  color: #554953;
+}
+section .profile {
+  overflow: hidden;
+}
+section .profile .pro-left {
+  float: left;
+  background-color: #f6f6f6;
+  width: 675px;
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+section .profile .pro-left img {
+  display: block;
+}
+section .profile .pro-left .text-box {
+  overflow: hidden;
+}
+section .profile .pro-left .text-box img {
+  display: block;
+  float: left;
+  margin-top: 22px;
+}
+section .profile .pro-left .text-box .tex {
+  width: 444px;
+  float: right;
+  margin-right: 9px;
+  margin-bottom: 12px;
+}
+section .profile .pro-left .text-box .tex h1 {
+  font-size: 14px;
+  color: #676767;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+section .profile .pro-left .text-box .tex hr {
+  color: #dcdcdc;
+  width: 428px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+section .profile .pro-left .text-box .tex .para {
+  margin-top: 15px;
+  border-top: 1px solid #fff;
+}
+section .profile .pro-left .text-box .tex .detail {
+  text-align: right;
+}
+section .profile .pro-right {
+  float: right;
+  width: 318px;
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  position: relative;
+  margin-top: 4px;
+}
+section .profile .pro-right img {
+  display: block;
+}
+section .profile .pro-right ul .li-one {
+  margin-top: 3px;
+}
+section .profile .pro-right ul li {
+  width: 90%;
+  margin-left: 5%;
+  overflow: hidden;
+  height: 26px;
+}
+section .profile .pro-right ul li a {
+  color: #5b5a5a;
+  text-align: center;
+}
+section .profile .pro-right ul li img {
+  display: block;
+  margin-top: 6px;
+}
+section .profile .pro-right ul li a:hover {
+  color: #38c4f0;
+}
+section .profile .pro-right .more {
+  position: absolute;
+  top: 8px;
+  right: 9px;
+}
+section .profile .pro-right .more a {
+  color: #000000;
+}
+section .product {
+  margin-top: 14px;
+  position: relative;
+}
+section .product img {
+  display: block;
+  margin-bottom: 22px;
+}
+section .product .more {
+  position: absolute;
+  top: 8px;
+  right: 9px;
+}
+section .product .more a {
+  color: #000000;
+}
+section .product .banner2 {
+  width: 1002px;
+  margin-bottom: 26px;
+}
+section .product .banner2 ul {
+  overflow: hidden;
+}
+section .product .banner2 ul li {
+  float: left;
+}
+section .news {
+  overflow: hidden;
+  margin-bottom: 9px;
+}
+section .news .new-left {
+  float: left;
+  width: 684px;
+  position: relative;
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+section .news .new-left .more {
+  position: absolute;
+  top: 8px;
+  right: 9px;
+}
+section .news .new-left .more a {
+  color: #000000;
+}
+section .news .new-left img {
+  display: block;
+  margin-bottom: 5px;
+}
+section .news .new-left .tex {
+  margin-left: 14px;
+  height: auto;
+  margin-bottom: 34px;
+}
+section .news .new-left .tex ul li {
+  width: 658px;
+  height: 26px;
+  line-height: 20px;
+}
+section .news .new-left .tex ul li img {
+  display: block;
+  width: 658px;
+  height: 1px;
+  margin-top: 6px;
+}
+section .news .new-left .tex ul li a:hover {
+  color: #1097cb;
+}
+section .news .new-left .tex ul li a {
+  color: #5c5c5c;
+}
+section .news .new-left .tex ul li a em {
+  display: block;
+  overflow: hidden;
+  width: 86%;
+  float: left;
+}
+section .news .new-left .tex ul li a span {
+  display: block;
+  width: 14%;
+  float: right;
+}
+section .news .new-right {
+  float: right;
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+section .news .new-right img {
+  display: block;
+  margin-bottom: 14px;
+}
+section .news .new-right .text {
+  margin-left: 26px;
+}
+section .news .new-right .text h1 {
+  font-size: 14px;
+  color: #2d2d2d;
+  margin-bottom: 2px;
+}
+section .news .new-right .text p {
+  height: 26px;
+  line-height: 26px;
+  color: #676767;
+}
+section .friendship .pic {
+  margin-bottom: 14px;
+}
+section .friendship .lin {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+section .friendship .lin ul {
+  overflow: hidden;
+}
+section .friendship .lin ul li {
+  width: 146px;
+  float: left;
+  text-align: center;
+  height: 24px;
+}
+section .friendship .lin ul li a {
+  color: #5b5a5a;
+}
+footer {
+  width: 100%;
+  height: 50px;
+  background: url("../img/footer_bg.jpg") repeat-x;
+}
+footer .copy {
+  width: 1002px;
+  margin: auto;
+}
+footer .copy p {
+  width: 530px;
+  margin: auto;
+  text-align: center;
+  line-height: 20px;
+  height: 50px;
+  color: #fff;
+}

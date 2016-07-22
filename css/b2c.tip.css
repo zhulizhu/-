@@ -1,0 +1,76 @@
+
+
+/*导航和站点栏*/
+#of_mainBody {
+    width: 100%;
+}
+
+
+/* 主导航模块 */
+.mainProNav {
+    position: relative;
+    z-index: 9996;
+    cursor: default;
+    text-align: left;
+    background: #fff;
+}
+.mainProNav dl, .mainProNav dt, .mainProNav dd {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.mainProNav dt {
+    width: 185px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #d4d4d4;
+    background: url("../img/jiantou1.png") 24% center no-repeat;
+}
+.dt-1{
+    background-color: #3595d1;
+}
+
+
+.mainProNav .dlHover dt {
+    position: relative;
+    z-index: 9999;
+    background: url("../img/jiantou1.png") 24% center no-repeat;
+    color: #fff;
+    background-color: #3595d1;
+}
+
+.mainProNav dd {
+    display: none;
+    position: absolute;
+    left: 188px;
+    top:-40px;
+    z-index: 9998;
+    margin-left:48px;
+    background: #fff;
+    width: 769px;
+    height: 260px;
+}
+
+.mainProNav .dlHover dd {
+    display: block;
+}
+
+
+.mainProNav .bankPayBar {
+    display: block;
+    width: 160px;
+    margin-bottom: 10px;
+    padding: 5px 0 8px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    background: #8eb84a;
+}
+
+.mainProNav .hide {
+    display: none;
+}
+
